@@ -1,0 +1,22 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+number                                                                            R4,R5        2
+turn_15_ms                                                                        R6,R7        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x0005C     46
+split_number_one                                                                  0x0008A      6
+split_number_decimal                                                              0x00090      5
+split_number_hundreds                                                             0x00095     10
+BCD                                                                               0x0009F     63
